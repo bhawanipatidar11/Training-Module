@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("maldives-island.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* .wrapper {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+} */
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+
+}
+
+.navbar ul {
+    margin-left: 65%;
+    margin-top: 30px;
+    /* font-size: 115%; */
+    
+}
+
+.navbar ul li {
+    margin: 10px ;
+    display: inline-block;
+}
+.navbar ul li a{
+    /* to remove underline from text we use text decoration*/
+    text-decoration: none;  
+    color: white;
+    font-size: 20px;
+}
+/* click kerna pe color change */
+.navbar ul li a:hover
+{
+    color:black;
+}
+
+/* jab click kerage tak red ho kayage active se */
+.navbar ul li a:active{
+    color:red
+}
+
+.a1
+{
+    text-align: end;
+}

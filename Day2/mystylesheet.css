@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+    background-image: url("image/download1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.A1 {
+
+    background-color: lightblue;
+    border-radius: 25px;
+
+}
+
+p {
+
+    height: 15px;
+}
+
+.A2 {
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin-top: 20px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+.center {
+    margin-top: 50px;
+    margin-left: 750px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 80px;
+    /* background-color: lightcyan; */
+}
